@@ -12,6 +12,13 @@
     min-width: 100px;
 
     background-color: white;
+    border-radius: 8px;
+    transition: .2s ease-in-out;
+    
+}
+.product:hover{
+    transform: scale(1.01);
+    box-shadow:3px -3px 10px 1px rgba(0,0,0,0.52);
 }
 .product_info{
     height: 150px;
@@ -23,6 +30,7 @@
     object-fit: contain;
     margin-bottom: 15px;
 }
+
 .product_price{
     margin-top: 5px;
 }
