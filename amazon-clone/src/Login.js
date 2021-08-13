@@ -16,8 +16,8 @@ function Login() {
         })
         .catch(error=>alert(error.message))
     }
-    const register =(e)=>{
-        e.preventDefault();
+    const register =(er)=>{
+        er.preventDefault();
 
         auth
         .createUserWithEmailAndPassword(email,password)
